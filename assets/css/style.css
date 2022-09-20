@@ -1,0 +1,104 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.past {
+  background-color: rgba(38, 65, 66, 0.549);
+  color: white;
+}
+
+.present {
+  background-color: rgba(118, 196, 199, 0.687);
+  color: white;
+}
+
+.future {
+  background-color: rgba(95, 158, 160, 0.563);
+  color: white;
+}
+
+.time-blocks {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-content: center;
+  justify-content: center;
+  margin: 1%;
+  flex-direction: row;
+  border-color: black;
+}
+
+.hours {
+  width: 20%;
+  height: 100%;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  border-end-start-radius: 15px;
+  border-start-start-radius: 15px;
+  border-color: black;
+}
+.text {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+  border-color: black;
+  }
+
+.fa-solid {
+  width:10%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  background-color: rgba(154, 212, 222, 0.497);
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-color: black;
+}
+
+.fa-solid:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  border-color: cadetblue;
+}
